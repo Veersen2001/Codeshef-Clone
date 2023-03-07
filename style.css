@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #f8f7f7;
+}
+
+
+/* navigation Styel */
+.logo img{
+    height: 60px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 0 50px;
+    padding: 0 20px;   
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+ul li{
+    padding: 20px;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-image: url(./image/DSC_2633\ \(2\).JPG);
+    background-size: cover;
+    
+   
+}
+.update-pro a{
+    color:rgb(96, 61, 31);
+    font-weight: 500;
+    font-size: 18px;
+}
+.update-pro span{
+    color: gold;
+    font-size: 20px;
+    
+}
+nav ul hr{
+    margin-right: 30px;
+    height: 30px;
+    width: 2px;
+    background-color: rgb(170, 159, 159);
+}
+.hr{
+    margin-top: 10px;
+    background:rgba(102, 100, 100, 0.804);
+    box-shadow: 2px 2px 2px  rgba(194, 192, 192, 0.938);
+    
+}
+
+/* section */
+.main{
+    margin: 20px 150px;
+}
+.head{
+
+    font-size: 30px;
+   
+}
+/* main */
+.recommended-profile{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+/* c-course design */
+.c-class{
+    box-shadow: 1px 0px 2px 2px rgba(222, 211, 211, 0.641);
+    height: 210px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 13px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.course-intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 20px;
+}
+.course-title h1{
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 3px;
+}
+.course-title button{
+   background-color: #fff;
+   border: 1px solid rgba(163, 152, 152, 0.833);
+    padding: 3px 5px;
+}
+.c-logo{
+    
+    height: 60px;
+    border-radius: 10px;
+    background-color: #074ce06b;
+
+}
+.c-logo img{
+    padding: 20px 5px;
+    
+}
+ .start{
+    height: 50px;
+    background-color:rgba(11, 94, 229, 0.944);
+    border: none;
+    opacity: 0.9;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+
+ /* Daily Streak design */
+
+ .week{
+    box-shadow: 1px 0px 2px 2px rgba(222, 211, 211, 0.641);
+    width: 380px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 5px;
+ }
+
+ 
+
+
+ 
+/* styling list days */
+ .list-days{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    
+ }
+ .list-days li{
+    
+    list-style: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color:rgba(128, 128, 128, 0.27);
+    
+ }
+
+ .day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .day p{
+    color: gray;
+    margin-bottom: 10px;
+ }
+ .day-f{
+    background-color: #2e2d43;
+    border-radius: 30px;
+    height: 70px;
+    width: 42px;
+   
+ }
+ .day-f li{
+    background-color: #ffffffd2;
+ }
+ .day-f p{
+    color: #ffffffc7;
+}
+
+/* styling days div */
+
+.days{
+    display: flex;
+    align-items: center;
+   
+    height: 60px;
+    width: 55%;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.days h1{
+    font-size: 15px;
+    font-weight: 100;
+    color: grey;
+    
+
+}
+
+.days p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.days hr{
+    height: 40px;
+   background-color: #808080;
+}
+
+.p1{
+    color: rgba(21, 21, 232, 0.764);
+
+}
+.p2 {
+    color: #f58105;
+}
+
+/* styling daily */
+
+.daily{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+     
+}
+.daily h1{
+    font-size: 22px;
+}
+
+.daily h3 a{
+    color: rgba(55, 14, 204, 0.8);
+    font-weight: 400;
+}
+
+/* main- yourself is design */
+
+.yourself{
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+    
+    
+}
+
+/* design chellenges div */
+
+.challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    height: 130px;
+    width: 320px;
+    background-image: linear-gradient(to right,rgba(17, 5, 242, 0.701),rgb(159, 138, 213));
+    border-radius:5px;
+    color: #fff;
+}
+
+.challenges p{
+    margin-left: 15px;
+}
+.p3{
+    font-size: 20px;
+
+}
+
+.compete{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.compete p{
+    font-size: 13px;
+}
+.compete p span{
+    font-size: 15px;
+}
+
+.compete button{
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+}
+
+/* design starters div */
+
+.starters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    height: 130px;
+    width: 320px;
+    margin-left: 40px;
+    padding: 0 15px;
+    background-color: #fff;
+    box-shadow:-15px 0px rgba(139, 23, 112, 0.492);
+
+}
+
+.well{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.well h2{
+    color: rgb(65, 62, 62);
+    font-weight: 300;
+}
+
+.contest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.contest p{
+    color: grey;
+    font-weight: 300;
+
+}
+.contest p span{
+    color: rgba(12, 12, 223, 0.822);
+    font-weight: 500;
+}
+
+.contest button{
+    background-color: #29333bcc;
+    color:#fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* main-more-courses */
+
+.more-courses{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid red;
+    height: 200px;
+    width: 900px;
+   
+    
+    
+    
+}
+
+.courses{
+    display: flex;
+    align-items: center;
+    border: 1px solid gold;
+   
+   
+
+    
+   
+}
+
+.course-section{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+    height: 150px;
+    width: 350px;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    margin-right: 15px ;
+    margin-top: 10px;
+    
+    
+    
+    
+
+}
+.course-section img{
+    border: 1px solid red;
+    height: 60px;
+    width: 60px;
+    border-radius:5px;
+}
+.course-section button{
+    width: 50px;
+    padding: 2px 5px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid rgba(163, 152, 152, 0.833);
+}
+
+.course-section p{
+    font-size: 18px;
+}
+.see-all{
+    width: 80px;
+    padding: 10px;
+    background: #fff;
+   
+}
